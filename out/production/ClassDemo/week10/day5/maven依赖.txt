@@ -1,0 +1,43 @@
+<!--Web打包方式为war-->
+    <packaging>war</packaging>
+
+    <dependencies>
+        <!--    引入HikariCP线程连接池    -->
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+            <version>3.4.2</version>
+        </dependency>
+
+        <!-- 引入mysql数据库连接驱动-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.21</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <!--    引入servlet    -->
+        <dependency>
+
+            <!--groupId类似于Java的包名，通常是公司或组织名称-->
+            <groupId>javax.servlet</groupId>
+            <!--artifactId类似于Java的类名，通常是项目名称-->
+            <artifactId>javax.servlet-api</artifactId>
+            <!--版本号-->
+            <version>4.0.0</version>
+            <!--   <scope>表示依赖关系，分别是compile、test、runtime和provided
+                    compile	编译时需要用到该jar包（默认）
+                    test	编译Test时需要用到该jar包
+                    runtime	编译时不需要，但运行时需要用到
+                    provided	编译时需要用到，但运行时由JDK或某个服务器提供
+            -->
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>

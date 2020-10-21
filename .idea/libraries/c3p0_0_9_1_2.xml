@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="c3p0-0.9.1.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ClassDemo/lib/c3p0-0.9.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ClassDemo/lib/commons-dbutils-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ClassDemo/lib/druid-1.1.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ClassDemo/lib/mysql-connector-java-8.0.21.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
